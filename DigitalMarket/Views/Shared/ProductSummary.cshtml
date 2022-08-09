@@ -1,0 +1,19 @@
+﻿@model Product
+
+<div class="card m-1 p-1">
+    <div class="card-body p-1">
+        <span class="badge bg-success" style="float:right">
+            <small>@Model.Price.ToString("c")</small>
+        </span>
+        <button class="badge bg-warning">
+            X
+        </button>
+        <a class="card-title" href="#">@Model.ProductName</a> <br />
+        <span class="card-text p-1">
+            <button type="submit" class="btn btn-outline-success btn-sm pull-right" style="float:right">
+                В корзину
+            </button>
+            @Model.Description
+        </span>
+    </div>
+</div>

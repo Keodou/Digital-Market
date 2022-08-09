@@ -1,0 +1,7 @@
+﻿@model ProductsListViewModel
+
+<h3>Товары</h3>
+@foreach (var product in Model.Products)
+{
+    @Html.Partial("ProductSummary", product)
+}
