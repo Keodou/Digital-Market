@@ -11,12 +11,17 @@ builder.Services.AddDbContext<DigitalMarketDbContext>(x => x.UseSqlServer(
     builder.Configuration.GetConnectionString("ProductsConnection")
     ));
 builder.Services.AddTransient<IProductRepository, EFProductRepository>();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 
 var app = builder.Build();
 
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 // Routes
 app.MapControllerRoute(

@@ -1,0 +1,7 @@
+﻿@model WishlistViewModel
+
+<h2>Список желаемого</h2>
+
+@foreach (var line in Model.Wishlist.Lines) {
+    <p>@line.Product.ProductName</p>
+}

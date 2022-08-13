@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Lu0c00kx++CzVUKluPtxN1iwBoAX+QJB12HhIbXeGf7yXHAOvc3KfxkmD3a80wD6xXlY6mKUHcnzjBbj5g43Sg==",
+  "dgSpecHash": "Uqv1eSxQkgV4aQ5IRCZ617fnc6O5k2SjU13qWqieDT3PJ9kF7MGcvlw+b2a3PeU8+3uxoL3sxaDr3GX0KmIGEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dmitry\\source\\repos\\DigitalMarket\\DigitalMarket\\DigitalMarket.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Dmitry\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Dmitry\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Dmitry\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Dmitry\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Dmitry\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Dmitry\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Dmitry\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
