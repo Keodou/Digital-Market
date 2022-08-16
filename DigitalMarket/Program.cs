@@ -31,6 +31,12 @@ app.MapControllerRoute(
     );
 
 app.MapControllerRoute(
+    name: "searchString",
+    pattern: "{SearchString}",
+    defaults: new { controller = "Product", action = "List" }
+    );
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Product}/{action=List}/{id?}");
 

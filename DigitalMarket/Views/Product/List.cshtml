@@ -1,5 +1,9 @@
 ﻿@model ProductsListViewModel
 
+<form class="d-flex col-7" asp-controller="Product" asp-action="List" method="get">
+    <input class="form-control mr-2" type="search" placeholder="Я ищу..." name="SearchString" value="@ViewBag.CurrentFilter">
+    <button class="btn btn-primary" type="submit" value="Filter">Поиск</button>
+</form>
 <h3>Товары</h3>
 @foreach (var product in Model.Products)
 {

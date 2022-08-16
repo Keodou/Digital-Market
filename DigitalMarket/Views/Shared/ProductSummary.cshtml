@@ -8,7 +8,9 @@
         <button class="badge bg-warning">
             X
         </button>
-        <a class="card-title" href="#">@Model.ProductName</a>
+        <a class="card-title" asp-controller="Product" asp-action="Details" asp-route-id="@Model.ProductID">
+            @Model.ProductName
+        </a>
 
         <form id="@Model.ProductID" asp-action="AddToWishlist" asp-controller="Wishlist" method="post">
             <input type="hidden" asp-for="ProductID" />

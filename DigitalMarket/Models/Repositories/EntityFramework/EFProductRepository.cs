@@ -1,6 +1,7 @@
 ﻿using DigitalMarket.Data;
 using DigitalMarket.Models.Entities;
 using DigitalMarket.Models.Repositories.Abstract;
+using Microsoft.EntityFrameworkCore;
 
 namespace DigitalMarket.Models.Repositories.EntityFramework
 {
@@ -14,5 +15,10 @@ namespace DigitalMarket.Models.Repositories.EntityFramework
         }
 
         public IQueryable<Product> Products => _context.Products;
+
+        public Product GetProductById(int id)
+        {
+            return _context.Products.FirstOrDefault(p => p.ProductID == id);
+        }
     }
 }
